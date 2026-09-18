@@ -37,7 +37,7 @@ def lambda_handler(event, context):
                 "Content-Type": "application/json"
             },
             "body": json.dumps({
-                "message": "Image uploaded successfully!",
+                "message": "Image uploaded successfully via GitHub Actions! ",
                 "fileName": file_name,
                 "s3Key": key
             })
